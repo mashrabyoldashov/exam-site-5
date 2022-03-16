@@ -1,0 +1,23 @@
+.Admin {
+    margin-top: 75px;
+
+    &__title {
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+        background-color: #fff;
+        width: 100%;
+    }
+}
+
+.table {
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+}
+
+.table {
+    color: blueviolet;
+}

@@ -1,0 +1,209 @@
+.pustoy__korzinka {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    &__title {
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #101010;
+    }
+
+    &__desc {
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #838383;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 540px;
+        text-decoration: none;
+        background: #101010;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        padding: 20px;
+        color: #fff;
+    }
+}
+
+.korzinka {
+    margin-top: 75px;
+
+    &__title {
+        margin-bottom: 13px;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        position: relative;
+        padding: 18px;
+        width: 633px;
+        min-height: 218px;
+        background-color: #fff;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+
+        &__map {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        &__top {
+            display: flex;
+            align-items: center;
+            gap: 23px;
+        }
+
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            color: #1C1C27;
+        }
+
+        &__price {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            color: #AAAAAA;
+        }
+
+        &__bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__btn-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 23px;
+
+            span {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 21px;
+                color: #000000;
+            }
+        }
+
+        &__minus-btn {
+            border: none;
+            width: 35px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #FFCE7F;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        &__plus-btn {
+            border: none;
+            width: 35px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #FFCE7F;
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+
+    &__delete {
+        background-color: #fff;
+        border: none;
+        position: absolute;
+        top: 5%;
+        right: 2%;
+    }
+
+    &__dostavka {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__text-warpper {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+        }
+
+        &__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #000000;
+        }
+    }
+
+    &__form {
+        background: #fff;
+        width: 100%;
+        max-width: 348px;
+        min-height: 114px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+
+
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__text-wrapper {
+            padding: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__button {   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            border: none;      
+            padding: 22px;
+            background: #101010;
+            color: #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+        }
+    }
+}

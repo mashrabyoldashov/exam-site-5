@@ -1,0 +1,54 @@
+.footer {
+    margin-top: 30px;
+
+   &__container {
+       padding: 29px;
+       display: flex;
+       align-items: flex-start;
+       justify-content: space-between;
+       width: 100%;
+       max-width: 1100px;
+       background-color: #fff;
+       border-radius: 20px 20px 0px 0px;
+   }
+
+   &__list {
+       padding: 0;
+       list-style: none;
+       display: flex;
+       justify-content: flex-start;
+       flex-direction: column;
+       gap: 10px;
+   }
+
+   &__link {
+       text-decoration: none;
+       font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 17px;
+       line-height: 21px;
+       color: #000000;
+   }
+
+   &__div {
+       display: flex;
+       flex-direction: column;
+       gap: 42px; 
+   }
+
+   &__language-list {
+       padding: 0;
+       list-style: none;
+       display: flex;
+       gap: 17px;
+   }
+
+   &__net {
+       padding: 0;
+       list-style: none;
+       display: flex;
+       align-items: center;
+       gap: 18px;
+   }
+}

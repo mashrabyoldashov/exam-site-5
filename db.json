@@ -1,0 +1,203 @@
+{
+  "products": [
+    {
+      "id": 1647374851540,
+      "title": "Xiaomi Redmi Note 11",
+      "img_link": "https://olcha.uz/image/original/products/Q25xwR9W7nPpnHwKTdWcPs0yHQPLLG9u1z6P5Z88f8RePUN8hUCJbkQo7ipz.jpeg",
+      "img_link_2": "https://olcha.uz/image/original/products/aVa70CMtjbefJ6u8HfJ8ccPeNeBvIEHQNvlPFC1VrIiCeh0cHtZekXyV5J89.png",
+      "img_link_3": "https://olcha.uz/image/original/products/FTP5IqHNuZ6TcAoJsNYLKqw1cSVgbdeV32phTv148YBreoj3tVTjNcSnzCEn.jpeg",
+      "img_link_4": "https://olcha.uz/image/original/products/Z1SUEKrxjKWf3wFMcuk2Ay0yUTxCntm9OTsyoT0W5ZgH54NBb5RnW0zli7cv.png",
+      "price": "2838000",
+      "old_price": "3000000",
+      "reting": "4.6",
+      "descreption": "Using Redmi Note 11 from last 20 days , everything is good for daily use except the Camera. I bought it in Rs 37000 in Pakistan but even paying that much Camera quality is even below average. Camera takes very dark photos and even blurry most of...",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "179 g",
+        "color": "black and blue",
+        "version": "Android 11, MIUI 13",
+        "year": "2022",
+        "memory": "128GB"
+      }
+    },
+    {
+      "id": 1647375120264,
+      "title": "Samsung Galaxy A72",
+      "img_link": "https://olcha.uz/image/original/products/Jixj2fsSk4lNErTTkZcD3EYapkLl7FlWcMn4BnwpS9AgRwtHV0cXI47w4x8Q.png",
+      "img_link_2": "https://olcha.uz/image/original/products/4IgEQF3IiUVrsxuR77tbx5S7NolAo9IGfjJSpzJH0Y7ZkPB59rwEZMAU0ZX1.png",
+      "img_link_3": "https://olcha.uz/image/original/products/hXghsV9QEDpl0NF6sCAEkp1admwwLPFOvOyYhvfwThqm44Sw3YKfyEz29uLr.png",
+      "img_link_4": "https://olcha.uz/image/original/products/oeUQRtXztgGrZG5hbDzCLdmN70TTvyivkY7al7sBSRstTUjkAaTazY8HF3BA.png",
+      "price": "5168790",
+      "old_price": "5221000",
+      "reting": "4.7",
+      "descreption": "Разберем характеристики смартфона. Корпус смартфона сделан из гластика — фирменного усиленного пластика Samsung, устойчивого к падениям, царапинам и другим внешним воздействиям. У него матовый финиш на задней поверхности — отпечатков пальцев совсем не видно. А глянцевые боковые грани добавляют элегантности. Еще одна важная характеристика Galaxy A72 — защита от влаги по стандарту IP67. Брызги больше не страшны: смартфон прекрасно себя чувствует на глубине до метра в течение 30 минут.",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "180 g",
+        "color": "black and blue",
+        "version": "Android 11, MIUI 13",
+        "year": "2022",
+        "memory": "128 GB"
+      }
+    },
+    {
+      "id": 1647375368818,
+      "title": "Apple iPhone 13 Pro",
+      "img_link": "https://olcha.uz/image/original/products/0bA6ELPWAiG8WAMVYLBqtAXbg5RTkgH24eHUYsXNpxZdv3zWkOmbvbWeFxLy.jpeg",
+      "img_link_2": "https://macola.rs/wp-content/uploads/2020/10/12pro.jpg",
+      "img_link_3": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-pro-max-pacific-blue.jpg",
+      "img_link_4": "https://th.bing.com/th/id/OIP.FUOIxHcle1Ke6drtrSHfOwHaLS?pid=ImgDet&w=642&h=978&rs=1",
+      "price": "20827000",
+      "old_price": "21000000",
+      "reting": "5",
+      "descreption": "Разберем характеристики смартфона. Корпус смартфона сделан из гластика — фирменного усиленного пластика Samsung, устойчивого к падениям, царапинам и другим внешним воздействиям. У него матовый финиш на задней поверхности — отпечатков пальцев совсем не видно. А глянцевые боковые грани добавляют элегантности. Еще одна важная характеристика Galaxy A72 — защита от влаги по стандарту IP67. Брызги больше не страшны: смартфон прекрасно себя чувствует на глубине до метра в течение 30 минут.",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "180 g",
+        "color": "Blue",
+        "version": "Android 11, MIUI 13",
+        "year": "2022",
+        "memory": "512GB"
+      }
+    },
+    {
+      "id": 1647375573773,
+      "title": "Lenovo IdeaPad Flex",
+      "img_link": "https://olcha.uz/image/original/products/LD1cNisFLZpHFCdh8SL8p95Elgd6QbHCrtSUbWpL3bhWtKEC6hMxn8XChhrC.jpeg",
+      "img_link_2": "https://olcha.uz/image/original/products/lY2TovAY5EsxI3b6oVvdQ0ClrCmFIcPIHbOsEzoxRA3fv3c86MPCHwCGRhEd.jpeg",
+      "img_link_3": "https://olcha.uz/image/original/products/w69r5bFgvnEqusxEeQxj7d5JYPLgwJghhBc84OqzVrcNPlfvAWaqW5YNz4H7.jpeg",
+      "img_link_4": "https://olcha.uz/image/original/products/iLTcHsaPzuWHTBbcUV3VL7vq550klqssv8a0R0Bq4rr2lUQkpS6oLNBrO6E0.jpeg",
+      "price": "8286000",
+      "old_price": "9000000",
+      "reting": "5",
+      "descreption": "Ноутбук IdeaPad Flex 5 (15 дюймов AMD) 2 в 1 создан с новым уровнем внимания к деталям, что делает его мягким и удобным на ощупь, а прочная краска делает его более удобным для пользователя. Ноутбук IdeaPad Flex 5 (15 дюймов AMD) 2 в 1 предназначен для воплощения ваших идей в жизнь в любом месте и в любое время. Используйте его в режиме ноутбука для повседневной работы, в режиме палатки для удобного просмотра вместе с другими, в режиме ожидания для просмотра любимых фильмов. и шоу, или режим планшета для более портативного и интерактивного опыта.",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "900 g",
+        "color": "black",
+        "version": "windows 11",
+        "year": "2022",
+        "memory": "8/256GB SSD"
+      }
+    },
+    {
+      "id": 1647375766272,
+      "title": "Acer Nitro 5 R7-5800H",
+      "img_link": "https://olcha.uz/image/original/products/sBwJlsq6DgcDoltWkXAotXgjaLitlgZEhiizDwxl82uZCLycyTWrupWO8f1X.jpeg",
+      "img_link_2": "https://olcha.uz/image/original/products/3fP82tTo83jCgHuePi3STwrwqFi7CJrpgxgrDAiysdkEktjL4GTO9m3vGtiO.jpeg",
+      "img_link_3": "https://olcha.uz/image/original/products/ZWy566UjIZXmZDJuXL3eW3eloxMzzka9GwzkvbELw0ATsZhZzbAWLShqKKfI.jpeg",
+      "img_link_4": "https://olcha.uz/image/original/products/vQRoz8UMVsrH4yWPIIWt3iWVmfv8aCcngnXbB6yek4gRU0yvQ2qeGQu3ngMu.jpeg",
+      "price": "12372000",
+      "old_price": "13000000",
+      "reting": "5",
+      "descreption": "Игровой дизайн и эргономика. Качественный экран диагональю 15.6 дюйма с быстрой 144 Гц игровой IPS матрицей обеспечивает максимально плавный геймплей для полного погружения в игру. Благодаря узким рамкам 7.02 мм экран занимает целых 80% корпуса. Цветовая гамма NTSC 72% / sRGB 99%. Технология Bluelight Shield позаботится о защите ваших глаз",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "900 g",
+        "color": "black",
+        "version": "windows 11",
+        "year": "2022",
+        "memory": "16/512GB SSD"
+      }
+    },
+    {
+      "id": 1647375975173,
+      "title": "Apple MacBook Pro 13 M1",
+      "img_link": "https://olcha.uz/image/original/products/WHNH0tpnwaXXB9nudGLb77H3tYqbKoYky6zxUdmiO3XkFXWbdgxGjuUGKzz5.jpeg",
+      "img_link_2": "https://olcha.uz/image/original/products/xr13zFIo28AQQDKaHElMB1DNb9eXL8vsNy3iPj1RAzHo5YHRcI3FxWWj5pCO.jpeg",
+      "img_link_3": "https://olcha.uz/image/original/products/huqNq1QCFzn8cX6xM12KTbgpSI6TSX1Uvtb58EgemL61UqBOrZNVJKhEgenJ.jpeg",
+      "img_link_4": "https://olcha.uz/image/original/products/RDVNz6k1U6gjjSmy9o7lBZMKe48vvPzgtslTWrppGDnNj68wAXsyU08fOIWT.jpeg",
+      "price": "15981000",
+      "old_price": "16000000",
+      "reting": "5",
+      "descreption": "С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно про­из­во­ди­тель­ным и быстрым. Мощность центрального процессора выросла до 2,8 раза. Скорость обработки графики — до 5 раз. Благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 11 раз. При этом MacBook Pro работает от аккумулятора до 20 часов — у вас теперь целый день без подзарядки. Наш самый популярный ноутбук класса Pro выходит на совершенно новый уровень.  Цвет: Grey",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "900 g",
+        "color": "grey",
+        "version": "www",
+        "year": "2022",
+        "memory": "16/512GB SSD"
+      }
+    },
+    {
+      "id": 1647376174816,
+      "title": "Xiaomi Mi Band 6",
+      "img_link": "https://olcha.uz/image/original/products/opFD9qkiqL3mP5jp9DkCAlbmSOxU5vmNjg2qw8pFHqZ1HEKrP6NChZmywwl2.jpeg",
+      "img_link_2": "https://olcha.uz/image/original/products/8FksCmIqaE10HoPMfty3JMHkhozgx7tPUTGdpYFEnOy1Hg2sZWNdKobiZS0c.jpeg",
+      "img_link_3": "https://olcha.uz/image/original/products/gaEzfSfzbJBsSPJHZ38icWIfT6wx3KQwALZ42laCRvLtNCguYnR6qfA46ITU.jpeg",
+      "img_link_4": "https://olcha.uz/image/original/products/GB42ByTT5yWB6zHLwtpArDsYW4H5ndHcjxKDbt11vWlPEcWuZVwARn4bZn09.jpeg",
+      "price": "430000",
+      "old_price": "699000",
+      "reting": "5",
+      "descreption": "С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно про­из­во­ди­тель­ным и быстрым. Мощность центрального процессора выросла до 2,8 раза. Скорость обработки графики — до 5 раз. Благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 11 раз. При этом MacBook Pro работает от аккумулятора до 20 часов — у вас теперь целый день без подзарядки. Наш самый популярный ноутбук класса Pro выходит на совершенно новый уровень.  Цвет: Grey",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "100 g",
+        "color": "grey",
+        "version": "www",
+        "year": "2022",
+        "memory": "32 МБ"
+      }
+    },
+    {
+      "id": 1647376325223,
+      "title": "X7 Pro Max Black",
+      "img_link": "https://olcha.uz/image/original/products/yhKrpmNzUMm3N6WtT2zOg581Bp2ebxmhyQgKTuSHvjuSO3gpC2QzeoXR5t8c.jpeg",
+      "img_link_2": "https://th.bing.com/th/id/OIP.HDXsGugXzSjNOJ40IHYxWAAAAA?pid=ImgDet&rs=1",
+      "img_link_3": "https://www.buykarlo.pk/wp-content/uploads/2020/08/ld5_smart_watch_heart_rate_monitor_fitness_tracker_bt_make_calls_-black.jpeg",
+      "img_link_4": "https://i.pinimg.com/originals/3e/ea/62/3eea62012c3d389a026065c359e5cc65.jpg",
+      "price": "301700",
+      "old_price": "431000",
+      "reting": "5",
+      "descreption": "С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно про­из­во­ди­тель­ным и быстрым. Мощность центрального процессора выросла до 2,8 раза. Скорость обработки графики — до 5 раз. Благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 11 раз. При этом MacBook Pro работает от аккумулятора до 20 часов — у вас теперь целый день без подзарядки. Наш самый популярный ноутбук класса Pro выходит на совершенно новый уровень.  Цвет: Grey",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "100 g",
+        "color": "grey",
+        "version": "www",
+        "year": "2022",
+        "memory": "32 МБ"
+      }
+    },
+    {
+      "id": 1647376484099,
+      "title": "Huawei FreeBuds 4i Black",
+      "img_link": "https://olcha.uz/image/original/products/he9wK0cHWg3mlnDWijGf1pyM6NdeMrU7MSTmcuQaPdX9PrBwj65eLGarimNr.jpeg",
+      "img_link_2": "https://th.bing.com/th/id/R.bfe90fb54392db1e73fb5f4fb276086a?rik=Hoq5L1CBT0AseQ&pid=ImgRaw&r=0",
+      "img_link_3": "https://www.androidheadlines.com/wp-content/uploads/2020/05/Huawei-FreeBuds-image-8.jpg",
+      "img_link_4": "https://d31wxntiwn0x96.cloudfront.net/myfpjt/productimages/5702_Huawei%20FreeBuds%20Wireless%20Earphones%20-%20Black%20Front_1.jpeg?etag=",
+      "price": "829000",
+      "old_price": "900000",
+      "reting": "5",
+      "descreption": "С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно про­из­во­ди­тель­ным и быстрым. Мощность центрального процессора выросла до 2,8 раза. Скорость обработки графики — до 5 раз. Благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 11 раз. При этом MacBook Pro работает от аккумулятора до 20 часов — у вас теперь целый день без подзарядки. Наш самый популярный ноутбук класса Pro выходит на совершенно новый уровень.  Цвет: Grey",
+      "money": "0",
+      "like": "false",
+      "characteries": {
+        "ves": "100 g",
+        "color": "grey",
+        "version": "www",
+        "year": "2022",
+        "memory": "32 МБ"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
