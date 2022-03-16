@@ -77,7 +77,7 @@ const Korzinka = () => {
     return (
         <>
             {
-                saveKorzinka.length == 0
+                saveKorzinka.length === 0
                 ?
                 <>
                     <div className='pustoy__korzinka'>

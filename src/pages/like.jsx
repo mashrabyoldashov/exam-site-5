@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import { Context } from '../Context/savedCardContext';
 import star from '../assets/svg/star.svg'
-import like from '../assets/img/like.png'
 import './like.scss'
 
 const Like = () => {

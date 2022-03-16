@@ -23,7 +23,8 @@ function Provider ({children}) {
         <Context.Provider value={{sumMoney, setSumMoney, smartphone, setSmartphone, 
             saveCards, setSaveCards,saveKorzinka,setSaveKorzinka, 
             userData,setUserData,korzinkaLength,
-            setKorzinkaLength,likeLength,setLikeLength}}>
+            setKorzinkaLength,likeLength,setLikeLength
+            }}>
              {children}
         </Context.Provider>
     )

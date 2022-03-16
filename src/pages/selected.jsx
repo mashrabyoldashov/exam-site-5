@@ -44,8 +44,6 @@ const Selected = () => {
         })
     }
 
-    console.log(fullInfo);
-
 
     return (
         <>
