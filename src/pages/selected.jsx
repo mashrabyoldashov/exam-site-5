@@ -27,7 +27,7 @@ const Selected = () => {
         smartphone?.map(i => {
             if (Number(e.target.id) === i.id) {
                 setKorzinkaLength(saveKorzinka.length)
-                return saveKorzinka.push(i);
+                saveKorzinka.push(i);
             }
         })
     }
@@ -36,7 +36,7 @@ const Selected = () => {
         smartphone?.map(item => {
             if (item.id === Number(e)) {
                 setKorzinkaLength(saveKorzinka.length)
-                return saveKorzinka.push(item)
+                saveKorzinka.push(item)
             }
         })
     }
