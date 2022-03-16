@@ -1,4 +1,4 @@
-import React, {useContext, useRef} from 'react';
+import React, {useContext} from 'react';
 import { Link } from 'react-router-dom';
 import { Context } from '../Context/savedCardContext';
 import './korzinka.scss';
@@ -25,7 +25,7 @@ const Korzinka = () => {
     saveKorzinka?.map(item => {
         let money = Number(item.money) * Number(item.price);
         
-        sumMoney.push(Number(money))
+        return sumMoney.push(Number(money))
     })
     
     let counters = ""
@@ -47,7 +47,7 @@ const Korzinka = () => {
                 item.money = Number(item.money) + 1
 
                 if (true) {
-                    setSaveCards(state => [...state])
+                    return setSaveCards(state => [...state])
                 }
             }
         })

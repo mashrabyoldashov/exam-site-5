@@ -1,7 +1,6 @@
-import { createContext, useState,useEffect } from "react";
+import { createContext, useState ,useEffect } from "react";
 
 const Context = createContext()
-
 
 function Provider ({children}) {
 
