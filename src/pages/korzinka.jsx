@@ -41,9 +41,9 @@ const Korzinka = () => {
     console.log(saveKorzinka);
 
     const handleIncrement = (e) => {
-        let id = e.target.id
+        let id = Number(e.target.id)
         saveKorzinka?.map(item => {
-            if (item.id == id) {
+            if (item.id === id) {
                 item.money = Number(item.money) + 1
 
                 if (true) {
@@ -54,9 +54,9 @@ const Korzinka = () => {
     }
 
     const handleDecrement = (e) => {
-        let id = e.target.id
+        let id = Number(e.target.id)
         saveKorzinka?.map(item => {
-            if (item.id == id) {
+            if (item.id === id) {
                 
                 if (item.money > 0) {
                     item.money = Number(item.money) - 1
@@ -77,7 +77,7 @@ const Korzinka = () => {
     return (
         <>
             {
-                saveKorzinka.length === 0
+                Number(saveKorzinka.length) === 0
                 ?
                 <>
                     <div className='pustoy__korzinka'>

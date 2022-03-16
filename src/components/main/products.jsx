@@ -11,7 +11,7 @@ const Products = ({data}) => {
 
     const addSavedCard = (e) => {
         smartphone?.map(i => {
-            if (e.target.id == i.id) {
+            if (Number(e.target.id) === i.id) {
                 saveCards.push(i)
                 setLikeLength(saveCards.length)
             } 
