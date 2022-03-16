@@ -19,9 +19,11 @@ function Provider ({children}) {
         .then(result => setSmartphone(result))
     }, [])
     
-    console.log(smartphone, "bu smartphone");
     return (
-        <Context.Provider value={{sumMoney, setSumMoney, smartphone, setSmartphone, saveCards, setSaveCards,saveKorzinka,setSaveKorzinka, userData,setUserData,korzinkaLength,setKorzinkaLength,likeLength,setLikeLength}}>
+        <Context.Provider value={{sumMoney, setSumMoney, smartphone, setSmartphone, 
+            saveCards, setSaveCards,saveKorzinka,setSaveKorzinka, 
+            userData,setUserData,korzinkaLength,
+            setKorzinkaLength,likeLength,setLikeLength}}>
              {children}
         </Context.Provider>
     )

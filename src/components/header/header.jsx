@@ -8,9 +8,7 @@ import like from '../../assets/img/like.png'
 
 const Header = () => {
 
-    const {korzinkaLength} = useContext(Context)
-    const {likeLength} = useContext(Context)
-    console.log(korzinkaLength);
+    const {korzinkaLength,likeLength} = useContext(Context)
 
     return (
         <header className='header'>

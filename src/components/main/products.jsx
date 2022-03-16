@@ -1,4 +1,4 @@
-import React, {useContext, useRef} from 'react'; 
+import React, {useContext} from 'react'; 
 import { Context } from '../../Context/savedCardContext';
 import likeSvg from '../../assets/svg/like.svg'
 import star from '../../assets/svg/star.svg'
@@ -7,9 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Products = ({data}) => {
 
-    const {smartphone} = useContext(Context)
-    const {saveCards} = useContext(Context)
-    const {setLikeLength} = useContext(Context)
+    const {smartphone,setLikeLength,saveCards} = useContext(Context)
 
     const addSavedCard = (e) => {
         smartphone?.map(i => {
