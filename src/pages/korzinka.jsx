@@ -7,7 +7,9 @@ import dostavka from '../assets/img/dostavka.png';
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
 import pustoyKorzinka from '../assets/img/pustoy-korzinka.png'
 
+
 const Korzinka = () => {
+    
 
     const {saveKorzinka, setSaveKorzinka, setSaveCards, setKorzinkaLength, setSumMoney} = useContext(Context)
     const handleDelete = (id) => {
