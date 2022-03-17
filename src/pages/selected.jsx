@@ -26,8 +26,8 @@ const Selected = () => {
     const addKorzinka = (e) => {
         smartphone?.map(i => {
             if (Number(e.target.id) === i.id) {
-                setKorzinkaLength(saveKorzinka.length)
                 saveKorzinka.push(i);
+                setKorzinkaLength(saveKorzinka.length)
             }
         })
     }
@@ -35,8 +35,8 @@ const Selected = () => {
     const handleAddKuptBtn = (e) => {
         smartphone?.map(item => {
             if (item.id === Number(e)) {
-                setKorzinkaLength(saveKorzinka.length)
                 saveKorzinka.push(item)
+                setKorzinkaLength(saveKorzinka.length)
             }
         })
     }
