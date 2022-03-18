@@ -32,7 +32,6 @@ const Korzinka = () => {
             return a + b
         })
     }
-
     setSumMoney(counters)
 
     console.log(saveKorzinka);
@@ -49,7 +48,6 @@ const Korzinka = () => {
             }
         })
     }
-
     const handleDecrement = (e) => {
         let id = Number(e.target.id)
         saveKorzinka?.map(item => {
