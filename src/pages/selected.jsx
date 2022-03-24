@@ -29,7 +29,7 @@ const Selected = () => {
                 if(!saveKorzinka.includes(i)) {
                     saveKorzinka.push(i);
                 } else {
-                    setSaveKorzinka(state => state.filter(item => item.id !== i.id))
+                    alert("Bu mahsulot korzinkaga saqlangan")
                 }
                 setKorzinkaLength(saveKorzinka.length)
             }
