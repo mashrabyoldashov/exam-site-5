@@ -40,6 +40,7 @@ const Selected = () => {
         smartphone?.map(item => {
             if (item.id === Number(e)) {
                 saveKorzinka.push(item)
+                
                 setKorzinkaLength(saveKorzinka.length)
             }
         })

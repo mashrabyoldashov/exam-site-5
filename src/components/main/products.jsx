@@ -10,10 +10,14 @@ const Products = ({data}) => {
     const {smartphone,setLikeLength,saveCards} = useContext(Context)
 
     const addSavedCard = (e) => {
-        smartphone?.map(i => {
+        smartphone?.map((i, index) => {
             if (Number(e.target.id) === i.id) {
-                saveCards.push(i)
-                setLikeLength(saveCards.length)
+                if(!saveCards.includes(i)) {
+                    saveCards.push(i)
+                } else {
+                    saveCards(state => state.filter(item => item.id !== i.id))
+                }
+                setLikeLength(index)
             } 
         })
     }
