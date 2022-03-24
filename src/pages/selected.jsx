@@ -12,7 +12,7 @@ const Selected = () => {
 
     const [fullInfo, setFullInfo] = useState({})
 
-    const {smartphone,saveKorzinka,setKorzinkaLength} = useContext(Context)
+    const {smartphone,setSaveKorzinka, saveKorzinka,setKorzinkaLength} = useContext(Context)
 
 
 
@@ -26,7 +26,11 @@ const Selected = () => {
     const addKorzinka = (e) => {
         smartphone?.map(i => {
             if (Number(e.target.id) === i.id) {
-                saveKorzinka.push(i);
+                if(!saveKorzinka.includes(i)) {
+                    saveKorzinka.push(i);
+                } else {
+                    setSaveKorzinka(state => state.filter(item => item.id !== i.id))
+                }
                 setKorzinkaLength(saveKorzinka.length)
             }
         })
