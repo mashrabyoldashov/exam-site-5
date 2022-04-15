@@ -22,9 +22,13 @@ const Login = () => {
 
     return (
         <div className='login'>
-            <input onChange={e => setAdminLogin(e.target.value)} type="text" />
-            <input onChange={e => setAdminParol(e.target.value)} type="text" />
-            <button type='submit' onSubmit={e => handleSubmit(e)}>btn</button>
+            <div className="container">
+                <form action="" className='login__formAdmin'>
+                    <input onChange={e => setAdminLogin(e.target.value)} type="text" />
+                    <input onChange={e => setAdminParol(e.target.value)} type="text" />
+                    <button type='submit' onSubmit={e => handleSubmit(e)}>btn</button>
+                </form>
+            </div>
         </div>
     );
 }
