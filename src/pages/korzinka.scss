@@ -236,6 +236,18 @@
 
         &__form {
             width: 100%; 
+            max-width: 633px;
+        }
+
+     
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .korzinka {
+
+        &__form {
+            width: 100%; 
             max-width: 533px;
         }
 
@@ -246,7 +258,7 @@
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 550px) {
     .korzinka {
 
         &__form {
@@ -257,6 +269,21 @@
         &__card {
             width: 100%;
             max-width: 433px;
+        }
+    }
+}
+
+@media only screen and (max-width: 474px) {
+    .korzinka {
+
+        &__form {
+            width: 100%; 
+            max-width: 453px;
+        }
+
+        &__card {
+            width: 100%;
+            max-width: 453px;
         }
     }
 }
