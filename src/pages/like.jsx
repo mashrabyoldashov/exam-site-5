@@ -26,7 +26,7 @@ const Like = () => {
                 ?
                 <>
                 <div className='pustoy__korzinka'>
-                    <img width="409" height="315" src={likee} alt="" />
+                    <img className='pustoy__korzinka__img' width="409" height="315" src={likee} alt="" />
                     <div>
                     <h1 className='pustoy__korzinka__title'>Избранное пуста</h1>
                     <p className='pustoy__korzinka__desc'>

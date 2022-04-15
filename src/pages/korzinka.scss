@@ -225,6 +225,16 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .pustoy__korzinka {
+
+        &__img {
+            width: 329px;
+            height: 245px;
+        }
+    }
+}
+
 @media only screen and (max-width: 1030px) {
     .korzinka {
         &__wrapper {
