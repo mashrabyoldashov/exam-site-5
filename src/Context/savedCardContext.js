@@ -15,6 +15,13 @@ function Provider ({children}) {
     const [korzinkaLength, setKorzinkaLength] = useState("0")
     const [likeLength, setLikeLength] = useState("0")
     const [userData, setUserData] = useState(userDataLocalStorage || [])
+    const [token, setToken] = useState(JSON.parse(window.localStorage.getItem('token')) || null)
+    let [adminLogin, setAdminLogin] = useState("")
+    let [adminParol, setAdminParol] = useState("")
+
+    useEffect(() => {
+        window.localStorage.setItem(JSON.stringify('token'), token)
+    }, [token])
 
     useEffect(() => {
         fetch("https://my-servesis.herokuapp.com/products")
@@ -34,7 +41,8 @@ function Provider ({children}) {
         <Context.Provider value={{sumMoney, setSumMoney, smartphone, setSmartphone, 
             saveCards, setSaveCards,saveKorzinka,setSaveKorzinka, 
             userData,setUserData,korzinkaLength,
-            setKorzinkaLength,likeLength,setLikeLength
+            setKorzinkaLength,likeLength,setLikeLength,
+            token,setToken,adminLogin,setAdminLogin,adminParol,setAdminParol
             }}>
              {children}
         </Context.Provider>
