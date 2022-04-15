@@ -11,6 +11,7 @@ import Finish from './pages/finish';
 import Login from './pages/login';
 import Public from './Routes/Public';
 import Private from './Routes/Private';
+import Admin from './pages/admin';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
                 <Route path='/' element={<OnlineShop/>}/>
             </Route>
             <Route path='/' element={<Private/>}>
-                <Route path='/admin' element={<Login/>}/>
+                <Route path='/admin' element={<Admin/>}/>
             </Route>
             
           </Routes>
