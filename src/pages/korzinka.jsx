@@ -79,7 +79,7 @@ const Korzinka = () => {
                 ?
                 <>
                     <div className='pustoy__korzinka'>
-                        <img width="409" height="315" src={pustoyKorzinka} alt="" />
+                        <img className='pustoy__korzinka__img' width="409" height="315" src={pustoyKorzinka} alt="" />
                         <div>
                         <h1 className='pustoy__korzinka__title'>Корзина пуста</h1>
                         <p className='pustoy__korzinka__desc'>
