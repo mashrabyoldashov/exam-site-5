@@ -13,8 +13,8 @@ const Korzinka = () => {
 
     const {saveKorzinka, setSaveKorzinka, setSaveCards, setKorzinkaLength, setSumMoney} = useContext(Context)
     const handleDelete = (id) => {
-        setSaveKorzinka(state => state.filter(item => item.id !== id))
         setKorzinkaLength(saveKorzinka.length)
+        setSaveKorzinka(state => state.filter(item => item.id !== id))
     }
     
     let sumMoney = [];
@@ -48,6 +48,7 @@ const Korzinka = () => {
             }
         })
     }
+    
     const handleDecrement = (e) => {
         let id = Number(e.target.id)
         saveKorzinka?.map(item => {
