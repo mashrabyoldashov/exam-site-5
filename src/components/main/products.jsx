@@ -7,7 +7,7 @@ import saved from '../../assets/img/saved.png'
 
 const Products = ({data}) => {
 
-    const {smartphone,setLikeLength,saveCards,setSaveCards} = useContext(Context)
+    const {smartphone,setLikeLength,saveCards} = useContext(Context)
 
     const addSavedCard = (e) => {
         smartphone?.map(i => {
@@ -16,7 +16,7 @@ const Products = ({data}) => {
                 if(!saveCards.includes(i)) {
                     saveCards.push(i)
                 } else {
-                    alert("Bu mahsulot sevimlilar royhatida saqlangan")
+                    alert("Bu mahsulot sevimlilar ro'yhatida saqlangan")
                 }
                 setLikeLength(saveCards.length)
             } 

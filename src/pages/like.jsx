@@ -11,9 +11,9 @@ const Like = () => {
     const {saveCards,setSaveCards,setLikeLength} = useContext(Context)
 
     const deleteLike = (id) => {
-        console.log(id);
         setSaveCards(state => state.filter((item, index) => {
             setLikeLength(index)
+            item.like = !item.like
             return item.id !== Number(id)
          })
         ) 
