@@ -8,20 +8,23 @@ import Korzinka from './pages/korzinka';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Kontak from './pages/kontak';
+import Finish from './pages/finish';
+import Main from './components/main/main';
 
 
 function App() {
   return (
     <div className='App'>
       <Header />
-        <Routes>
-          <Route path='/admin' element={<Admin/>}/>
-          <Route path='/korzinka' element={<Korzinka />}/>
-          <Route path='/selected/:id' element={<Selected/>}/>
-          <Route path='/kontak' element={<Kontak/>}/>
-          <Route path='/like' element={<Like />}/>
-          <Route path='/' element={<OnlineShop/>}/>
-        </Routes>
+          <Routes>
+            <Route path='/admin' element={<Admin/>}/>
+            <Route path='/korzinka' element={<Korzinka />}/>
+            <Route path='/selected/:id' element={<Selected/>}/>
+            <Route path='/kontak' element={<Kontak/>}/>
+            <Route path='/finish' element={<Finish/>}/>
+            <Route path='/like' element={<Like />}/>
+            <Route path='/' element={<OnlineShop/>}/>
+          </Routes>
       <Footer/>
     </div>
   );

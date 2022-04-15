@@ -16,8 +16,7 @@ const Kontak = () => {
 
     const {userData,saveKorzinka,sumMoney} = useContext(Context)
 
-    const getUserData = (e) => {
-        e.preventDefault();
+    const getUserData = () => {
 
         const user = {
             userCity: userCity,
@@ -30,7 +29,7 @@ const Kontak = () => {
 
         userData.push(user)
 
-        alert("Номер вашего заказа №123123, с Вами свяжется наш менеджер.")
+        // window.localStorage.setItem("userData", JSON.stringify(userData))
 
     }
 
@@ -42,7 +41,7 @@ const Kontak = () => {
                     <h3 className='kontak__title'>
                     Оформление заказа
                     </h3>
-                <form onSubmit={(e) => getUserData(e)} className='kontak__wrapper'>
+                <form className='kontak__wrapper'>
                 
                     <div className='kontak__global-wrapper'>
                         <div className='kontak__text-wrapper'>
@@ -165,11 +164,13 @@ const Kontak = () => {
                             <h2>
                             Номер получателя
                             </h2>
-                            <input required onChange={(e) => setUserPhoneNumber(e.target.value)} className='kontak__form-2__input' placeholder='+998 __ __ __ __ __' type="text" />
+                            <input defaultValue="998" required onChange={(e) => setUserPhoneNumber(e.target.value)} className='kontak__form-2__input' placeholder=' __ __ __ __ __' type="number" />
                         </div>
 
-                        <button type='submit' className='kontak__form-2__button'>
-                           Закончить оформление
+                        <button onClick={() => getUserData()} type='submit' className='kontak__form-2__button'>
+                           <Link className='kontak__form-2__link' to={`/finish`}>
+                                Закончить оформление
+                           </Link>
                         </button>
 
                         <Link to={`/admin`}>

@@ -3,21 +3,22 @@ import { Context } from '../../Context/savedCardContext';
 import likeSvg from '../../assets/svg/like.svg'
 import star from '../../assets/svg/star.svg'
 import { Link } from 'react-router-dom';
-
+import saved from '../../assets/img/saved.png'
 
 const Products = ({data}) => {
 
-    const {smartphone,setLikeLength,saveCards} = useContext(Context)
+    const {smartphone,setLikeLength,saveCards,setSaveCards} = useContext(Context)
 
     const addSavedCard = (e) => {
-        smartphone?.map((i) => {
+        smartphone?.map(i => {
             if (Number(e.target.id) === i.id) {
+                i.like = !i.like
                 if(!saveCards.includes(i)) {
-                    setLikeLength(saveCards.length)
                     saveCards.push(i)
                 } else {
-                    saveCards(state => state.filter(item => item.id !== i.id))
+                    alert("Bu mahsulot sevimlilar royhatida saqlangan")
                 }
+                setLikeLength(saveCards.length)
             } 
         })
     }
@@ -34,9 +35,9 @@ const Products = ({data}) => {
                         data?.map(s => {
                             return (
                             <>
-                                     <div key={new Date().getTime()} className='naushnik__card'>    
+                                     <div key={s.id} className='naushnik__card'>    
                                          <button onClick={(e) => addSavedCard(e)} className='naushnik__likeSvg-btn'>
-                                                <img id={s.id} src={likeSvg} alt="" />
+                                                <img id={s.id} src={s.like === false ? saved : likeSvg} alt="" />
                                          </button>
 
                                             <img width="219" height="237" className='naushnik__card__img' src={s.img_link} alt="" />
