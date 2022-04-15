@@ -6,14 +6,14 @@ import likee from '../assets/img/likee.png';
 import { Link } from 'react-router-dom';
 import './like.scss'
 
-const Like = () => {
+const Like = ({data}) => {
 
     const {saveCards,setSaveCards,setLikeLength} = useContext(Context)
 
     const deleteLike = (id) => {
         setSaveCards(state => state.filter((item, index) => {
             setLikeLength(index)
-            item.like = !item.like
+            data?.map((item) => item.id !== Number(id) ? item.like = !item.like : null)
             return item.id !== Number(id)
          })
         ) 
