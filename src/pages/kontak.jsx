@@ -172,10 +172,6 @@ const Kontak = () => {
                                 Закончить оформление
                            </Link>
                         </button>
-
-                        <Link to={`/admin`}>
-                           adn
-                        </Link>
             
                     </div>
                 </form>

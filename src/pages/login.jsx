@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { Context } from '../Context/savedCardContext';
 import './login.scss'
 
 const Login = () => {
@@ -11,25 +12,26 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        if (adminLogin == 11112222 && adminParol == "aaaabbbb") {
+        if (adminLogin == 20030429 && adminParol == "mashrab03") {
             setToken("1111")
-
         } else {
             setToken(undefined)
-            alert(" Login or Parol is not defained")
+            alert("Login or Parol is not defained")
         }
     }
 
     return (
-        <div className='login'>
+        <>
+            <section className='login'>
             <div className="container">
                 <form action="" className='login__formAdmin'>
-                    <input onChange={e => setAdminLogin(e.target.value)} type="text" />
-                    <input onChange={e => setAdminParol(e.target.value)} type="text" />
-                    <button type='submit' onSubmit={e => handleSubmit(e)}>btn</button>
+                    <input placeholder='password' className='login__password' onChange={e => setAdminLogin(e.target.value)} type="number" required />
+                    <input placeholder='parol' className='login__parol' onChange={e => setAdminParol(e.target.value)} type="text" required />
+                    <button className='login__btn' type='submit' onSubmit={e => handleSubmit(e)}>Login</button>
                 </form>
             </div>
-        </div>
+            </section>
+        </>
     );
 }
 

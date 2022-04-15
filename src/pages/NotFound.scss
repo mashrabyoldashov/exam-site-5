@@ -1,0 +1,9 @@
+.notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__heading {
+        margin-top: 72px;
+    }
+}

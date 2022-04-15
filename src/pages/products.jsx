@@ -1,9 +1,9 @@
 import React, {useContext} from 'react'; 
-import { Context } from '../../Context/savedCardContext';
-import likeSvg from '../../assets/svg/like.svg'
-import star from '../../assets/svg/star.svg'
+import { Context } from '../Context/savedCardContext';
+import likeSvg from '../assets/svg/like.svg'
+import star from '../assets/svg/star.svg'
 import { Link } from 'react-router-dom';
-import saved from '../../assets/img/saved.png'
+import saved from '../assets/img/saved.png'
 
 const Products = ({data}) => {
 

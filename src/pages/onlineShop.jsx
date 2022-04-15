@@ -1,10 +1,13 @@
-import React from 'react';
-import Main from '../components/main/main';
+import React, { useContext } from 'react';
+import { Context } from '../Context/savedCardContext';
+import Products from './products';
+import './main.scss'
 
 const OnlineShop = () => {
+    const {smartphone} = useContext(Context)
     return (
         <>
-            <Main/>
+            <Products key={new Date().getTime()} data={smartphone} />
         </>
     );
 }
