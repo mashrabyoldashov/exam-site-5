@@ -3,6 +3,8 @@
 
     &__card {
         position: relative;
+        display: flex;
+        flex-direction: column;
         padding: 50px;
         width: 100%;
         max-width: 1110px;
@@ -12,17 +14,6 @@
         border-radius: 30px;
     }
 
-    &__like {
-        position: absolute;
-        top: 2%;
-        left: 2%;
-    }
-
-    &__card-logo {
-        position: absolute;
-        top: 2%;
-        right: 2%;
-    }
 
     &__img-wrapper {
         display: flex; 
@@ -40,15 +31,27 @@
         background: #F9F9F9;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
-        width: 824px;
+        width: 100%;
+        max-width: 824px;
         min-height: 300px;
     }
 
     &__title {
+        position: relative;
         padding: 20px 22px;
         background: #FFFFFF;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
+
+        &__btn {
+            display: none;
+            position: absolute;
+            top: 40%;
+            right: 5%;
+            border: none;
+            background-color: #fff;
+            font-size: large;
+        }
     }
 
     &__desc-wrapper {
@@ -104,5 +107,48 @@
         padding-top: 20px;
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .selected {
+        &__flex {
+            width: 100%;
+            gap: 15px;
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .selected {
+
+        &__card {
+            min-height: 428px;
+        }
+
+        &__img-wrapper {
+            position: relative;
+
+            &__img {
+                position: absolute;
+            }
+        }
+
+        &__text-wrapper {
+            position: absolute;
+            left: 9%;
+            top: 80%;
+        }
+
+        &__full-info {
+            position: relative;
+        }
+
+        &__title {
+            &__btn {
+                display: block;
+            }
+        }
     }
 }

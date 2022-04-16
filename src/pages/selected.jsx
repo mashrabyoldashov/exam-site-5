@@ -53,14 +53,12 @@ const Selected = () => {
             <div className="container selected__container">
                 
                 <div className='selected__card'>
-                    <img className='selected__like' src={like} alt="" />
-                    <img className='selected__card-logo' src={logo} alt="" />
                     <div className='selected__img-wrapper'>
-                        <img width="270" height="270" src={fullInfo?.img_link} alt="" />
-                        <img width="270" height="270" src={fullInfo?.img_link_2} alt="" />
-                        <img width="270" height="270" src={fullInfo?.img_link_3} alt="" />
-                        <img width="270" height="270" src={fullInfo?.img_link_4} alt="" />
-                        <img width="270" height="270" src={fullInfo?.img_link} alt="" />
+                        <img className='selected__img-wrapper__img' width="270" height="270" src={fullInfo?.img_link} alt="" />
+                        <img className='selected__img-wrapper__img' width="270" height="270" src={fullInfo?.img_link_2} alt="" />
+                        <img className='selected__img-wrapper__img' width="270" height="270" src={fullInfo?.img_link_3} alt="" />
+                        <img className='selected__img-wrapper__img' width="270" height="270" src={fullInfo?.img_link_4} alt="" />
+                        <img className='selected__img-wrapper__img' width="270" height="270" src={fullInfo?.img_link} alt="" />
                     </div>
 
                     <div className='selected__text-wrapper'>
@@ -78,9 +76,14 @@ const Selected = () => {
             <div className='selected__flex'>
                 <div className='selected__wrapper'>
                     <div className='selected__card-full-info'>
-                        <h3 className='selected__title'>
-                            Описание и характеристики
-                        </h3>
+                        <div className='selected__title'>
+                            <h3>
+                                Описание и характеристики
+                            </h3>
+                            <button className='selected__title__btn'>
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                        </div>
                         <div className='selected__desc-wrapper'>
                             <p>
                                Year: {fullInfo.characteries?.year}
