@@ -29,8 +29,6 @@ const Kontak = () => {
 
         userData.push(user)
 
-        // window.localStorage.setItem("userData", JSON.stringify(userData))
-
     }
 
     return (
@@ -95,7 +93,7 @@ const Kontak = () => {
                     </div>
         
 
-                    <div className='kontak__form-2'>
+             <div className='kontak__form-2'>
                         <div className='kontak__form-2__div'>
                             <h2>
                                 Ваш заказ
@@ -139,7 +137,7 @@ const Kontak = () => {
                                 30000 UZS
                                 </span>
                             </div>
-                        </div>
+                        </div> 
 
                         <div className='kontak__form-2__div'>
                             <h2>
@@ -158,14 +156,14 @@ const Kontak = () => {
                                    Есть промокод?
                                </label>
                             </div>                            
-                        </div>
+                        </div> 
 
                         <div className='kontak__form-2__div'>
                             <h2>
                             Номер получателя
                             </h2>
                             <input defaultValue="998" required onChange={(e) => setUserPhoneNumber(e.target.value)} className='kontak__form-2__input' placeholder=' __ __ __ __ __' type="number" />
-                        </div>
+                        </div> 
 
                         <button onClick={() => getUserData()} type='submit' className='kontak__form-2__button'>
                            <Link className='kontak__form-2__link' to={`/finish`}>
