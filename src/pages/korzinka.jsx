@@ -11,7 +11,7 @@ import pustoyKorzinka from '../assets/img/pustoy-korzinka.png'
 const Korzinka = () => {
     
 
-    const {saveKorzinka, setSaveKorzinka, setSaveCards, setKorzinkaLength, setSumMoney} = useContext(Context)
+    const {userBuy, setUserBuy, saveKorzinka, setSaveKorzinka, setSaveCards, setKorzinkaLength, setSumMoney} = useContext(Context)
     const handleDelete = (id) => {
         setSaveKorzinka(state => state.filter((item, index)=> {
             setKorzinkaLength(index)
@@ -178,9 +178,10 @@ const Korzinka = () => {
                                          {counters} UZS
                                      </p>
                                 </div>
-                                <Link to={`/kontak`} className='korzinka__form__button'>
-                                    Перейти к оформлению
-                                </Link>
+                                    <Link to={`/kontak`} className='korzinka__form__button'>
+                                        Перейти к оформлению
+                                    </Link>
+                         
                             </div>
                         </div>
                     </div>

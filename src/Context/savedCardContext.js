@@ -16,8 +16,8 @@ function Provider ({children}) {
     const [likeLength, setLikeLength] = useState("0")
     const [userData, setUserData] = useState(userDataLocalStorage || [])
     const [token, setToken] = useState(JSON.parse(window.localStorage.getItem('token')) || null)
-    let [adminLogin, setAdminLogin] = useState("")
-    let [adminParol, setAdminParol] = useState("")
+    const [adminLogin, setAdminLogin] = useState("")
+    const [adminParol, setAdminParol] = useState("")
 
     useEffect(() => {
         window.localStorage.setItem(JSON.stringify('token'), token)
@@ -36,7 +36,7 @@ function Provider ({children}) {
     useEffect(() => {
         window.localStorage.setItem("userData", JSON.stringify(userData))
     }, [userData])
-    
+    window.localStorage.setItem("userData", JSON.stringify(userData))
     return (
         <Context.Provider value={{sumMoney, setSumMoney, smartphone, setSmartphone, 
             saveCards, setSaveCards,saveKorzinka,setSaveKorzinka, 

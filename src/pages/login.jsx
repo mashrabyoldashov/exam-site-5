@@ -13,21 +13,23 @@ const Login = () => {
         e.preventDefault()
 
         if (adminLogin == 20030429 && adminParol == "mashrab03") {
-            setToken("1111")
+            setToken("OK")
         } else {
-            setToken(undefined)
+            setToken(null)
             alert("Login or Parol is not defained")
         }
+        console.log(adminLogin, adminParol);
     }
+
 
     return (
         <>
             <section className='login'>
             <div className="container">
                 <form action="" className='login__formAdmin'>
-                    <input placeholder='password' className='login__password' onChange={e => setAdminLogin(e.target.value)} type="number" required />
-                    <input placeholder='parol' className='login__parol' onChange={e => setAdminParol(e.target.value)} type="text" required />
-                    <button className='login__btn' type='submit' onSubmit={e => handleSubmit(e)}>Login</button>
+                    <input placeholder='password' className='login__password' onChange={e => setAdminLogin(e.target.value)} type="password" required />
+                    <input placeholder='parol' className='login__parol' onChange={e => setAdminParol(e.target.value)} type="password" required />
+                    <button className='login__btn' type='button' onClick={e => handleSubmit(e)}>Login</button>
                 </form>
             </div>
             </section>

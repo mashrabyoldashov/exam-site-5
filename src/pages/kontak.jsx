@@ -14,7 +14,7 @@ const Kontak = () => {
     const [userKvartira, setUserKvartira] = useState("")
     const [userPhoneNumber, setUserPhoneNumber] = useState("")
 
-    const {userData,saveKorzinka,sumMoney} = useContext(Context)
+    const {setUserData, userData,saveKorzinka,sumMoney} = useContext(Context)
 
     const getUserData = () => {
 
@@ -27,9 +27,11 @@ const Kontak = () => {
             userPhoneNumber: userPhoneNumber
         }
 
-        userData.push(user)
-
+        setUserData([...userData, user])
+        
     }
+    
+
 
     return (
         <>
@@ -37,7 +39,7 @@ const Kontak = () => {
                 <div className="container">
 
                     <h3 className='kontak__title'>
-                    Оформление заказа
+                        Оформление заказа
                     </h3>
                 <form className='kontak__wrapper'>
                 
