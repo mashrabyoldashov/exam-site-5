@@ -131,6 +131,8 @@
             position: relative;
 
             &__img {
+                width: 100%;
+                min-height: auto;
                 position: absolute;
             }
         }
