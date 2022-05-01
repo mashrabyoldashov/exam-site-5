@@ -1,10 +1,8 @@
 import React, {useEffect, useState, useContext} from 'react';
-import { Context } from '../Context/savedCardContext';
+import { Context } from '../../Context/savedCardContext';
 import { Link, useParams } from 'react-router-dom';
 import './selected.scss';
-import like from '../assets/svg/like.svg'
-import logo from '../assets/img/imagelogo.png'
-import korzinkaWhite from '../assets/img/korzinaWhite.png'
+import korzinkaWhite from '../../assets/img/korzinaWhite.png'
 
 const Selected = () => {
 

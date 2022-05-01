@@ -1,17 +1,17 @@
 import React, {useContext} from 'react';
 import { Link } from 'react-router-dom';
-import { Context } from '../Context/savedCardContext';
+import { Context } from '../../Context/savedCardContext';
 import './korzinka.scss';
-import delet from '../assets/img/delete.png';
-import dostavka from '../assets/img/dostavka.png';
+import delet from '../../assets/img/delete.png';
+import dostavka from '../../assets/img/dostavka.png';
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
-import pustoyKorzinka from '../assets/img/pustoy-korzinka.png'
+import pustoyKorzinka from '../../assets/img/pustoy-korzinka.png'
 
 
 const Korzinka = () => {
     
 
-    const {userBuy, setUserBuy, saveKorzinka, setSaveKorzinka, setSaveCards, setKorzinkaLength, setSumMoney} = useContext(Context)
+    const { saveKorzinka, setSaveKorzinka, setSaveCards, setKorzinkaLength, setSumMoney} = useContext(Context)
     const handleDelete = (id) => {
         setSaveKorzinka(state => state.filter((item, index)=> {
             setKorzinkaLength(index)
@@ -35,9 +35,8 @@ const Korzinka = () => {
             return a + b
         })
     }
-    setSumMoney(counters)
 
-    console.log(saveKorzinka);
+    setSumMoney(counters)
 
     const handleIncrement = (e) => {
         let id = Number(e.target.id)
@@ -51,6 +50,7 @@ const Korzinka = () => {
             }
         })
     }
+    
     const handleDecrement = (e) => {
         let id = Number(e.target.id)
         saveKorzinka?.map(item => {
@@ -65,13 +65,10 @@ const Korzinka = () => {
                 if (true) {
                     setSaveCards(state => [...state])
                 }
-
-                console.log(saveKorzinka);
             }
         })
     }
    
-
     return (
         <>
             {

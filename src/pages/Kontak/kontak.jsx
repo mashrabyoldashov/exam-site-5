@@ -1,7 +1,7 @@
 import React, {useContext, useState} from 'react';
-import { Context } from '../Context/savedCardContext';
+import { Context } from '../../Context/savedCardContext';
 import './kontak.scss';
-import geo from '../assets/img/geolokatsiya.png'
+import geo from '../../assets/img/geolokatsiya.png'
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
 import { Link } from 'react-router-dom';
 

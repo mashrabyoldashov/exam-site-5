@@ -1,17 +1,17 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 import OnlineShop from './pages/onlineShop';
-import Selected from './pages/selected';
-import Like from './pages/like';
-import Korzinka from './pages/korzinka';
+import Selected from './pages/Selected/selected';
+import Like from './pages/Like/like';
+import Korzinka from './pages/Korzinka/korzinka';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import Kontak from './pages/kontak';
-import Finish from './pages/finish';
+import Kontak from './pages/Kontak/kontak';
+import Finish from './pages/Finish/finish';
 import Public from './Routes/Public';
 import Private from './Routes/Private';
-import Admin from './pages/admin';
-import NotFound from './pages/NotFound';
+import Admin from './pages/Admin/admin';
+import NotFound from './pages/NotFound/NotFound';
 
 
 

@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import { Context } from '../Context/savedCardContext';
+import { Context } from '../../Context/savedCardContext';
 import './login.scss'
 
 const Login = () => {
@@ -12,7 +12,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        if (adminLogin == 20030429 && adminParol == "mashrab03") {
+        if (adminLogin == 11112222 && adminParol == "aaaabbbb") {
             setToken("OK")
         } else {
             setToken(null)

@@ -44,13 +44,17 @@
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         border-radius: 30px;
 
+        &__delete {
+            color: red;
+            font-size: 25px;
+        }
+
         img {
             margin: 0 auto;
         }
 
         &__body {
             display: flex;
-            // align-items: flex-start;
             justify-content: space-between;
         }
 
@@ -90,6 +94,7 @@
         }
 
         p {
+            margin: 0;
             color: black;
             margin-left: 10px;
             vertical-align: middle;

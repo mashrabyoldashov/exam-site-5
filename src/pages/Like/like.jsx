@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
-import { Context } from '../Context/savedCardContext';
-import star from '../assets/svg/star.svg';
-import saved from '../assets/img/saved.png';
-import likee from '../assets/img/likee.png';
+import { Context } from '../../Context/savedCardContext';
+import star from '../../assets/svg/star.svg';
+import saved from '../../assets/img/saved.png';
+import likee from '../../assets/img/likee.png';
 import { Link } from 'react-router-dom';
 import './like.scss'
 
